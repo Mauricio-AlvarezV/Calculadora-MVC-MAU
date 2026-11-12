@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-/** Modelo: contiene los datos y las operaciones matematicas. */
+//Model tiene la lógica matemática es el que realiza las operaciones matemáticas
 public class CalcModel {
     public BigDecimal calculate(String first, String second, String operation) {
         BigDecimal a = new BigDecimal(first.trim());

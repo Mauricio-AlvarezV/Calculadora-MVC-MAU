@@ -1,4 +1,4 @@
-/** Controlador: conecta los eventos de la vista con el modelo. */
+// El controlador contiene actioners y registra cuando hay eventos de mouse (clicks)
 public class CalcController {
     private final CalcModel model;
     private final CalcView view;

@@ -7,7 +7,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-/** Vista: construye la interfaz grafica y expone sus controles. */
+// Vista: Este apartado es el que nos permite ver la calculadora cuando ejecutamos el programa
 public class CalcView extends JFrame {
     private final JTextField firstField = new JTextField();
     private final JTextField secondField = new JTextField();
